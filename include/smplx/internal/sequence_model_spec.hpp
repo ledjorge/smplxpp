@@ -105,6 +105,23 @@ struct SequenceModelSpec<SequenceConfig, model_config::SMPLX_v1> {
     }
 };
 
+template <class SequenceConfig>
+struct SequenceModelSpec<SequenceConfig, model_config::STAR> {
+    static void set_shape(const Sequence<SequenceConfig>& seq,
+                          Body<model_config::STAR>& body) {
+        body.shape().noalias() =
+            seq.shape.template head<model_config::STAR::n_shape_blends()>();
+    }
+    static void set_pose(const Sequence<SequenceConfig>& seq,
+                         Body<model_config::STAR>& body, size_t frame) {
+        constexpr size_t n_common = SequenceConfig::n_body_joints() * 3;
+        body.trans().noalias() = seq.trans.row(frame).transpose();
+        body.pose().template head<n_common>().noalias() =
+            seq.pose.row(frame).template head<n_common>().transpose();
+        // Remaining joints assumed to already be set to 0
+    }
+};
+
 // NOTE: SMPLX with hand pca (SMPLXpca) is not supported
 }  // namespace internal
 }  // namespace smplx

@@ -286,5 +286,7 @@ int main(int argc, char** argv) {
         return run<model_config::SMPLXpca>(gender, robust);
     } else if (model_name == "Zp") {
         return run<model_config::SMPLXpca_v1>(gender, robust);
+    } else if (model_name == "ST") {
+        return run<model_config::STAR>(gender, robust);
     }
 }
