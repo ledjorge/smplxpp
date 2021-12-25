@@ -271,5 +271,7 @@ int main(int argc, char** argv) {
         return run<model_config::SMPLXpca>(gender, force_cpu, pose_blends);
     } else if (model_name == "Zp") {
         return run<model_config::SMPLXpca_v1>(gender, force_cpu, pose_blends);
+    } else if (model_name == "ST") {
+        return run<model_config::STAR>(gender, force_cpu, pose_blends);
     }
 }

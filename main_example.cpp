@@ -11,9 +11,9 @@ int main(int argc, char** argv) {
     // ModelX/BodyX means SMPL-X model; *S is for SMPL, *H is for SMPL+H, *Xpca
     // is SMPL-X with hand pca you may provide a path to the .npz model instead
     // of a gender to the ModelX constructor
-    smplx::ModelX model(
+    smplx::ModelSTAR model(
         smplx::util::parse_gender(argc > 1 ? argv[1] : "NEUTRAL"));
-    smplx::BodyX body(model);
+    smplx::BodySTAR body(model);
     // X axis rotation of r-knee
     body.pose()(3 * /*r knee*/ 5) = 0.5f;
     srand((unsigned)time(NULL));

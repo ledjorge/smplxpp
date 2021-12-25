@@ -351,6 +351,7 @@ void declare_sequence(py::module& m, const std::string& py_sequence_name) {
     declare_sequence_model_spec<SequenceConfig, model_config::SMPLH>(cl);
     declare_sequence_model_spec<SequenceConfig, model_config::SMPLX>(cl);
     declare_sequence_model_spec<SequenceConfig, model_config::SMPLXpca>(cl);
+    declare_sequence_model_spec<SequenceConfig, model_config::STAR>(cl);
 }
 
 void batch_inv_affine(
@@ -383,6 +384,7 @@ PYBIND11_MODULE(smplxpp, m) {
     declare_model<model_config::SMPLH>(m, "ModelH", "BodyH");
     declare_model<model_config::SMPLX>(m, "ModelX", "BodyX");
     declare_model<model_config::SMPLXpca>(m, "ModelXpca", "BodyXpca");
+    declare_model<model_config::STAR>(m, "ModelSTAR", "BodySTAR");
 
     declare_sequence<sequence_config::AMASS>(m, "SequenceAMASS");
 

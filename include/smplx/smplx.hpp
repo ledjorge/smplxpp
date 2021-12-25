@@ -209,6 +209,8 @@ using ModelH = Model<model_config::SMPLH>;
 using ModelX = Model<model_config::SMPLX>;
 // SMPL-X Model with hand PCA
 using ModelXpca = Model<model_config::SMPLXpca>;
+// STAR Model
+using ModelSTAR = Model<model_config::STAR>;
 
 /** A particular SMPL instance constructed from a Model<ModelConfig>,
  *  storing pose/shape/hand parameters and a skinned point cloud generated
@@ -361,6 +363,8 @@ using BodyH = Body<model_config::SMPLH>;
 using BodyX = Body<model_config::SMPLX>;
 // SMPL-X Body with hand PCA
 using BodyXpca = Body<model_config::SMPLXpca>;
+// STAR Body
+using BodySTAR = Body<model_config::STAR>;
 
 }  // namespace smplx
 

@@ -190,6 +190,28 @@ struct SMPL : public internal::ModelConfigBase<SMPL> {
     static constexpr const char* default_uv_path = "models/smpl/uv.txt";
 };
 
+// STAR model
+struct STAR : public internal::ModelConfigBase<STAR> {
+    static constexpr size_t n_verts() { return 6890; }
+    static constexpr size_t n_faces() { return 13776; }
+    static constexpr size_t n_explicit_joints() { return 24; }
+    static constexpr size_t n_shape_blends() { return 300; }
+    static constexpr size_t n_pose_blends() { return 93; }
+    static constexpr size_t parent[] = {0,  0,  0,  0,  1,  2,  3,  4,
+                                        5,  6,  7,  8,  9,  9,  9,  12,
+                                        13, 14, 16, 17, 18, 19, 20, 21};
+    static constexpr const char* joint_name[] = {
+        "pelvis",        "left_hip",       "right_hip",    "spine1",
+        "left_knee",     "right_knee",     "spine2",       "left_ankle",
+        "right_ankle",   "spine3",         "left_foot",    "right_foot",
+        "neck",          "left_collar",    "right_collar", "head",
+        "left_shoulder", "right_shoulder", "left_elbow",   "right_elbow",
+        "left_wrist",    "right_wrist",    "left_hand",    "right_hand"};
+    static constexpr const char* model_name = "STAR";
+    static constexpr const char* default_path_prefix = "models/star/STAR_";
+    static constexpr const char* default_uv_path = "models/star/uv.txt";
+};
+
 }  // namespace model_config
 }  // namespace smplx
 

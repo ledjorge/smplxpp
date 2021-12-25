@@ -222,5 +222,7 @@ int main(int argc, char** argv) {
         return run<model_config::SMPLXpca>(path);
     } else if (model_name == "Zp") {
         return run<model_config::SMPLXpca_v1>(path);
+    } else if (model_name == "ST") {
+        return run<model_config::STAR>(path);
     }
 }
