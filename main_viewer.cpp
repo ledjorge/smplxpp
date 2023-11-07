@@ -11,6 +11,7 @@
 //    note pose blendshapes are very slow.
 #include <algorithm>
 #include <iostream>
+#include <fstream>
 
 #include "meshview/meshview.hpp"
 #include "meshview/meshview_imgui.hpp"
@@ -125,6 +126,23 @@ static int run(Gender gender, bool force_cpu, bool pose_blends) {
         if (ImGui::Button("Shape##ResetShape")) {
             body.shape().setZero();
             update();
+        }
+
+        if (ImGui::Button("Save OBJ")) {
+            auto verts = body.verts();
+            auto faces = model.faces;
+
+            // Write obj
+            puts("Writing body.obj");
+            std::ofstream out("body.obj");
+            for (size_t i = 0; i < verts.rows(); ++i) {
+                out << "v " << verts(i, 0) << " " << verts(i, 1) << " "
+                    << verts(i, 2) << std::endl;
+            }
+            for (size_t i = 0; i < faces.rows(); ++i) {
+                out << "f " << faces(i, 0) + 1 << " " << faces(i, 1) + 1 << " "
+                    << faces(i, 2) + 1 << std::endl;
+            }
         }
 
         if (ImGui::SliderFloat3("translation", body.trans().data(), -5.f, 5.f))
@@ -254,6 +272,10 @@ static int run(Gender gender, bool force_cpu, bool pose_blends) {
 }
 
 int main(int argc, char** argv) {
+    if (argc == 1) {
+        puts("Usage: ./smpl_viewer [S|H|X|Xp|Z|Zp|S1] [NEUTRAL|MALE|FEMALE]");
+        return 0;
+    }
     Gender gender = util::parse_gender(argc > 2 ? argv[2] : "NEUTRAL");
     bool force_cpu = argc > 3 ? (std::string(argv[3]) == "cpu") : false;
     bool pose_blends = argc > 4 ? (std::string(argv[4]) != "off") : true;
@@ -261,6 +283,8 @@ int main(int argc, char** argv) {
     for (auto& c : model_name) c = std::toupper(c);
     if (argc < 2 || model_name == "S") {
         return run<model_config::SMPL>(gender, force_cpu, pose_blends);
+    } else if (model_name == "S1") {
+        return run<model_config::SMPL_v1>(gender, force_cpu, pose_blends);
     } else if (model_name == "H") {
         return run<model_config::SMPLH>(gender, force_cpu, pose_blends);
     } else if (model_name == "X") {
