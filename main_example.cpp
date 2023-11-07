@@ -6,16 +6,30 @@
 // See include/smplx/model_config.hpp for joint names
 #include "smplx/smplx.hpp"
 #include "smplx/util.hpp"
+#include "3rdparty/json/json/json.h"
 #include <iostream>
+#include <fstream>
 int main(int argc, char** argv) {
     // ModelX/BodyX means SMPL-X model; *S is for SMPL, *H is for SMPL+H, *Xpca
     // is SMPL-X with hand pca you may provide a path to the .npz model instead
     // of a gender to the ModelX constructor
-    smplx::ModelSTAR model(
-        smplx::util::parse_gender(argc > 1 ? argv[1] : "NEUTRAL"));
-    smplx::BodySTAR body(model);
-    // X axis rotation of r-knee
-    body.pose()(3 * /*r knee*/ 5) = 0.5f;
+    std::string inp_path_metadata(argv[1]);
+    Json::Value metadata;
+    std::ifstream metadata_str(inp_path_metadata, std::ifstream::binary);
+    metadata_str >> metadata;
+    std::string gender;
+    std::string gender_metadata = metadata["gender"].asString();
+    if(gender_metadata=="F") gender = "FEMALE";
+    else if(gender_metadata=="M") gender = "MALE";
+    else gender = "NEUTRAL";
+    smplx::ModelX model(smplx::util::parse_gender(gender));
+    smplx::BodyX body(model);
+    //pose
+    int N_pose = metadata["star"]["pose"].size();
+    for (int i_p=0; i_p<N_pose; i_p++)
+    {
+        body.pose()(i_p) = metadata["star"]["pose"][i_p].asFloat();
+    }
     srand((unsigned)time(NULL));
     _SMPLX_BEGIN_PROFILE;
     body.update();

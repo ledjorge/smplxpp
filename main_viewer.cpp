@@ -60,7 +60,7 @@ static int run(Gender gender, bool force_cpu, bool pose_blends) {
     std::vector<meshview::Mesh*> joint_spheres;
     // Lines are 'point clouds' with lines=true, sorry for weirdness
     std::vector<meshview::PointCloud*> joint_lines;
-    const Vector3f joint_offset(-2.f, 0.f, 0.f);
+    const Vector3f joint_offset(2.f, 0.f, 0.f);
     for (size_t i = 0; i < model.n_joints(); ++i) {
         auto joint_pos = body.joints().row(i).transpose();
         joint_spheres.push_back(
