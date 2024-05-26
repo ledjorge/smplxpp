@@ -9,3 +9,6 @@ build_xcode/3rdparty/meshview/Debug
 build_xcode/3rdparty/meshview/3rdparty/glfw/src/Release
 build_xcode/3rdparty/meshview/3rdparty/glfw/src/Debug
 data/models/smpl
+data/models/amass
+build_xcode/smplxpp.xcodeproj/project.xcworkspace/xcuserdata
+build_xcode/smplxpp.xcodeproj/xcuserdata

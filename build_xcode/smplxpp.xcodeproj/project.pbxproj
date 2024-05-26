@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -62,93 +62,44 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		043294340D114CC99DA42FFC /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 98F9610B88A44BBFB812DF23 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include/GLFW/glfw3native.h */; };
-		0A93E42E01B446D38E4BEF67 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = DB3D84DB250442E9810BC3B7 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_monitor.m */; };
-		0C771EECBF32417ABF8383C1 /* /Users/jonino/src/body_shape/smplxpp/src/body.cpp */ = {isa = PBXBuildFile; fileRef = 3F5A6101EEE745FF839FD12D /* /Users/jonino/src/body_shape/smplxpp/src/body.cpp */; };
-		0CA6738681B44AF19A01AC68 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb/stb_image.cpp */ = {isa = PBXBuildFile; fileRef = F9ADD4F0B91B443EAF4CF9BE /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb/stb_image.cpp */; };
-		159AB2C2B1C845C09B560995 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 0B9B524858B1451E834BF341 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/internal.h */; };
-		169997521ECA4824B57C4E39 /* /Users/jonino/src/body_shape/smplxpp/src/sequence.cpp */ = {isa = PBXBuildFile; fileRef = E33BA0A41D5F4A98A0CF70BF /* /Users/jonino/src/body_shape/smplxpp/src/sequence.cpp */; };
-		183CFD24EB734401B8EDCA16 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/shader.cpp */ = {isa = PBXBuildFile; fileRef = 9B25492A81734F91BFD67CE0 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/shader.cpp */; };
-		245C04526EB0455BACF3BA4B /* /Users/jonino/src/body_shape/smplxpp/main_example.cpp */ = {isa = PBXBuildFile; fileRef = A5FE664D43794BBC8CA147F3 /* /Users/jonino/src/body_shape/smplxpp/main_example.cpp */; };
-		24E0E2E434CA410DAE90F597 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui.cpp */ = {isa = PBXBuildFile; fileRef = 565BBB8E6E9B4DCD91B0C05A /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui.cpp */; };
-		2932215C8DB04C4C9C299AD3 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 40A8E75388514BBDBECECF76 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/input.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		3080FEA3BB0646A2B389A21F /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = 4216BDA2ED6342A6B2C2C8AC /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/egl_context.h */; };
-		3A9FAD81437C4BFB88F47D5C /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/viewer.cpp */ = {isa = PBXBuildFile; fileRef = FB34F301A0DE41E8AC651451 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/viewer.cpp */; };
-		3F04488B2555413681CBFF03 /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C400CE789E8D4073A9145F83 /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */; };
-		469E4D6FE4774FB481992F48 /* /Users/jonino/src/body_shape/smplxpp/main_amass.cpp */ = {isa = PBXBuildFile; fileRef = 462CBFA7571A4CF5834F897A /* /Users/jonino/src/body_shape/smplxpp/main_amass.cpp */; };
-		471CE4120DB24B53BCFB3BA8 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 2F307CA26B4B4F8AB0669712 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/osmesa_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		489AADA23234464C9CDB72E9 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_impl_opengl3.cpp */ = {isa = PBXBuildFile; fileRef = 07D69778A9AF4753B1E34C5D /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_impl_opengl3.cpp */; };
-		4969300259F74801B9353555 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_draw.cpp */ = {isa = PBXBuildFile; fileRef = F0820C01D0FD408AA6366233 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_draw.cpp */; };
-		4C1ADE1F88D14514B0BFC1CD /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 8B7A0CBD31FC448288F51F5F /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include/GLFW/glfw3.h */; };
-		57BF9F217D0D484FB269E930 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 449F01B6FC4045D2A290944E /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/monitor.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		59785C8136F1439B91FFAFE7 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 21735F25617C4D4696F03685 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_time.c */; };
-		66F65A6810FC405A905516D6 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_impl_glfw.cpp */ = {isa = PBXBuildFile; fileRef = 9576CFDEABD14F1195B20A8E /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_impl_glfw.cpp */; };
-		68F6675D58FE489F985FB1AB /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/mesh.cpp */ = {isa = PBXBuildFile; fileRef = 1E6BF1D64BE146E6A80C0145 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/mesh.cpp */; };
-		6C18FEA7AB0042A1A83906A6 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 9687E7D16EF74EE2874FAED3 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/vulkan.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		6DE0BF2D7E93405289B464B0 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 60BE27D1E1F648CE8E4219FE /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/nsgl_context.m */; };
-		73227409E7BB49738A3576EE /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6144088AB1E44ECDAAC53E3F /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */; };
-		7BE0F292FCE5442FB874031B /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 05C4FE0530D54C659BB761D5 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_platform.h */; };
-		7E58B3A7825347C2BA0888B9 /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 97A1C03900CB4F92B9BCFACE /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */; };
-		91B6DF0428D14A1E80EEF1DC /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = 01E21DDD82994F6FB324F58C /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		A0A1DEF28B294625B3A38D38 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 2DE1CB7D34BA4EF9B4D13C33 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/posix_thread.h */; };
-		A0F41466DEE94B5B93F471C6 /* /Users/jonino/src/body_shape/smplxpp/src/model.cpp */ = {isa = PBXBuildFile; fileRef = 78DB51FC04044F84807DAA02 /* /Users/jonino/src/body_shape/smplxpp/src/model.cpp */; };
-		ABF5F22535DF4FA4ABC01F8F /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/util.cpp */ = {isa = PBXBuildFile; fileRef = E96A25FB4FB64CB4BC6A9767 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/util.cpp */; };
-		AFAB6DC6C2F04EF6BFA10AC6 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2419D3E859E040D483D5C0DB /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/CMakeLists.txt */; };
-		B0FF3A69420046A7AD10766E /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A4D8237D51364A4EAE0C36D3 /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */; };
-		B6FC117F826F43EEB4C569DE /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/texture.cpp */ = {isa = PBXBuildFile; fileRef = BEAE6F9C5C98446A90D49B7E /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/texture.cpp */; };
-		BCDD4F11650C4B67BD79C6E6 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 962EF5CCE7114C709B8ACF9D /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/window.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		BCF700BA8A4146B3A202D2C2 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = D1740AE10C554CFD85A08730 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/init.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		C17DDAB5819D41A3AD4E3CAA /* /Users/jonino/src/body_shape/smplxpp/main_viewer.cpp */ = {isa = PBXBuildFile; fileRef = 6FF8B55E0DD34837901FA434 /* /Users/jonino/src/body_shape/smplxpp/main_viewer.cpp */; };
-		C3F2947D77D14A23BD22BC36 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = A672AE0C8783481B898DC64B /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_window.m */; };
-		C61A60AB878A4444BC7D0C7A /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F14315BD7AB048AFB5F1EFE3 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/CMakeLists.txt */; };
-		C6E861728C454BEC947B107D /* /Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy/cnpy.cpp */ = {isa = PBXBuildFile; fileRef = 24FB9A9D99474FC1A9AFDBD9 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy/cnpy.cpp */; };
-		C80539A9A3144BFC9F38A695 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = A7818AC91C9D4F9397AF4F25 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/osmesa_context.h */; };
-		C9F66C2375FF4A3C96FE8DBF /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = E4F19C3BBC9146E1B1266C9D /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_joystick.m */; };
-		CA8CE07DF958431DAC18401F /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXBuildFile; fileRef = 322E4F20D72942AC9C873DA9 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/OpenGL.framework */; };
-		D12982A251FF49A69E2C91E9 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 016BAE45A8B5420BB4D2D9C8 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_init.m */; };
-		D1BBCC21409D4AFDA19EE66C /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/src/glew.c */ = {isa = PBXBuildFile; fileRef = 8D427B8C9A8E45CFA2B99A75 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/src/glew.c */; };
-		D23F263AEB6D42F492E91EE3 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = AD436C663D2B4F30AD4B6707 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/egl_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		D287CB007436401A9195D621 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_widgets.cpp */ = {isa = PBXBuildFile; fileRef = 610EC3F0B697400F9CA39937 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_widgets.cpp */; };
-		D57FE2E85B2D45D8A356A072 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 4236BD3B9798488A93606A43 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_joystick.h */; };
-		D9AA1DB3DC2940F191D38D57 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = F367B322E0404481BD6A4A77 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/nsgl_context.h */; };
-		DB0C24E235B54B3893BAEBCA /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/camera.cpp */ = {isa = PBXBuildFile; fileRef = ACF431838998434799507C50 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/camera.cpp */; };
-		DBDF5866757641D1834A8624 /* /Users/jonino/src/body_shape/smplxpp/src/util.cpp */ = {isa = PBXBuildFile; fileRef = 099C578CEEEF40E4A899B29A /* /Users/jonino/src/body_shape/smplxpp/src/util.cpp */; };
-		E406332C7A464CE2BA0F585C /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_stdlib.cpp */ = {isa = PBXBuildFile; fileRef = 3BC25C688B6940FA9BDD63C6 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_stdlib.cpp */; };
-		E648350DF9CD425AB4D8961C /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = F9F4B6A2D0124F00AF9DDB51 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/mappings.h */; };
-		F189586560F941FCA28F06D0 /* /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = E875CFE8BBEE4AE79C7509B2 /* /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/glfw_config.h */; };
-		F76D7FF39A3B439493B69565 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = 42F0B1D22A14493DB425D8DC /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/posix_thread.c */; };
+		0A93E42E01B446D38E4BEF67 /* cocoa_monitor.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3D84DB250442E9810BC3B7 /* cocoa_monitor.m */; };
+		0C771EECBF32417ABF8383C1 /* body.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A6101EEE745FF839FD12D /* body.cpp */; };
+		0CA6738681B44AF19A01AC68 /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9ADD4F0B91B443EAF4CF9BE /* stb_image.cpp */; };
+		169997521ECA4824B57C4E39 /* sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E33BA0A41D5F4A98A0CF70BF /* sequence.cpp */; };
+		183CFD24EB734401B8EDCA16 /* shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B25492A81734F91BFD67CE0 /* shader.cpp */; };
+		245C04526EB0455BACF3BA4B /* main_example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5FE664D43794BBC8CA147F3 /* main_example.cpp */; };
+		24E0E2E434CA410DAE90F597 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 565BBB8E6E9B4DCD91B0C05A /* imgui.cpp */; };
+		2932215C8DB04C4C9C299AD3 /* input.c in Sources */ = {isa = PBXBuildFile; fileRef = 40A8E75388514BBDBECECF76 /* input.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		3A9FAD81437C4BFB88F47D5C /* viewer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB34F301A0DE41E8AC651451 /* viewer.cpp */; };
+		469E4D6FE4774FB481992F48 /* main_amass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 462CBFA7571A4CF5834F897A /* main_amass.cpp */; };
+		471CE4120DB24B53BCFB3BA8 /* osmesa_context.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F307CA26B4B4F8AB0669712 /* osmesa_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		489AADA23234464C9CDB72E9 /* imgui_impl_opengl3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07D69778A9AF4753B1E34C5D /* imgui_impl_opengl3.cpp */; };
+		4969300259F74801B9353555 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0820C01D0FD408AA6366233 /* imgui_draw.cpp */; };
+		57BF9F217D0D484FB269E930 /* monitor.c in Sources */ = {isa = PBXBuildFile; fileRef = 449F01B6FC4045D2A290944E /* monitor.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		59785C8136F1439B91FFAFE7 /* cocoa_time.c in Sources */ = {isa = PBXBuildFile; fileRef = 21735F25617C4D4696F03685 /* cocoa_time.c */; };
+		66F65A6810FC405A905516D6 /* imgui_impl_glfw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9576CFDEABD14F1195B20A8E /* imgui_impl_glfw.cpp */; };
+		68F6675D58FE489F985FB1AB /* mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E6BF1D64BE146E6A80C0145 /* mesh.cpp */; };
+		6C18FEA7AB0042A1A83906A6 /* vulkan.c in Sources */ = {isa = PBXBuildFile; fileRef = 9687E7D16EF74EE2874FAED3 /* vulkan.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		6DE0BF2D7E93405289B464B0 /* nsgl_context.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BE27D1E1F648CE8E4219FE /* nsgl_context.m */; };
+		91B6DF0428D14A1E80EEF1DC /* context.c in Sources */ = {isa = PBXBuildFile; fileRef = 01E21DDD82994F6FB324F58C /* context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		A0F41466DEE94B5B93F471C6 /* model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78DB51FC04044F84807DAA02 /* model.cpp */; };
+		ABF5F22535DF4FA4ABC01F8F /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E96A25FB4FB64CB4BC6A9767 /* util.cpp */; };
+		B6FC117F826F43EEB4C569DE /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEAE6F9C5C98446A90D49B7E /* texture.cpp */; };
+		BCDD4F11650C4B67BD79C6E6 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = 962EF5CCE7114C709B8ACF9D /* window.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		BCF700BA8A4146B3A202D2C2 /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = D1740AE10C554CFD85A08730 /* init.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		C17DDAB5819D41A3AD4E3CAA /* main_viewer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8B55E0DD34837901FA434 /* main_viewer.cpp */; };
+		C3F2947D77D14A23BD22BC36 /* cocoa_window.m in Sources */ = {isa = PBXBuildFile; fileRef = A672AE0C8783481B898DC64B /* cocoa_window.m */; };
+		C6E861728C454BEC947B107D /* cnpy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24FB9A9D99474FC1A9AFDBD9 /* cnpy.cpp */; };
+		C9F66C2375FF4A3C96FE8DBF /* cocoa_joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F19C3BBC9146E1B1266C9D /* cocoa_joystick.m */; };
+		D12982A251FF49A69E2C91E9 /* cocoa_init.m in Sources */ = {isa = PBXBuildFile; fileRef = 016BAE45A8B5420BB4D2D9C8 /* cocoa_init.m */; };
+		D1BBCC21409D4AFDA19EE66C /* glew.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D427B8C9A8E45CFA2B99A75 /* glew.c */; };
+		D23F263AEB6D42F492E91EE3 /* egl_context.c in Sources */ = {isa = PBXBuildFile; fileRef = AD436C663D2B4F30AD4B6707 /* egl_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		D287CB007436401A9195D621 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 610EC3F0B697400F9CA39937 /* imgui_widgets.cpp */; };
+		DB0C24E235B54B3893BAEBCA /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACF431838998434799507C50 /* camera.cpp */; };
+		DBDF5866757641D1834A8624 /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 099C578CEEEF40E4A899B29A /* util.cpp */; };
+		E406332C7A464CE2BA0F585C /* imgui_stdlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BC25C688B6940FA9BDD63C6 /* imgui_stdlib.cpp */; };
+		F76D7FF39A3B439493B69565 /* posix_thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 42F0B1D22A14493DB425D8DC /* posix_thread.c */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXBuildStyle section */
-		5601D19FD99743D59135B64C /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		B3941B9AC54143E1BDED101F /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		B874BC1942DB4662934F5970 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		FBEA6A9B8BC842078DBCEB16 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-/* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
 		0C5035AC34B149EBA3DC3CAE /* PBXContainerItemProxy */ = {
@@ -301,69 +252,69 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		016BAE45A8B5420BB4D2D9C8 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = 3rdparty/meshview/3rdparty/glfw/src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
-		01E21DDD82994F6FB324F58C /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = 3rdparty/meshview/3rdparty/glfw/src/context.c; sourceTree = SOURCE_ROOT; };
-		05C4FE0530D54C659BB761D5 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = 3rdparty/meshview/3rdparty/glfw/src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
-		075098ECBC784297A63B2B17 /* example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "smplx-example"; sourceTree = BUILT_PRODUCTS_DIR; };
-		07D69778A9AF4753B1E34C5D /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_impl_opengl3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_impl_opengl3.cpp; path = 3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_impl_opengl3.cpp; sourceTree = SOURCE_ROOT; };
-		099C578CEEEF40E4A899B29A /* /Users/jonino/src/body_shape/smplxpp/src/util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util.cpp; path = src/util.cpp; sourceTree = SOURCE_ROOT; };
-		0B9B524858B1451E834BF341 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = 3rdparty/meshview/3rdparty/glfw/src/internal.h; sourceTree = SOURCE_ROOT; };
-		1D713E1FCF3B451BB1DAC986 /* viewer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "smplx-viewer"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E6BF1D64BE146E6A80C0145 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mesh.cpp; path = 3rdparty/meshview/src/mesh.cpp; sourceTree = SOURCE_ROOT; };
-		21735F25617C4D4696F03685 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = 3rdparty/meshview/3rdparty/glfw/src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
-		2419D3E859E040D483D5C0DB /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = 3rdparty/meshview/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		24FB9A9D99474FC1A9AFDBD9 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy/cnpy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cnpy.cpp; path = 3rdparty/cnpy/cnpy.cpp; sourceTree = SOURCE_ROOT; };
-		2DE1CB7D34BA4EF9B4D13C33 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = 3rdparty/meshview/3rdparty/glfw/src/posix_thread.h; sourceTree = SOURCE_ROOT; };
-		2F307CA26B4B4F8AB0669712 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = 3rdparty/meshview/3rdparty/glfw/src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
-		322E4F20D72942AC9C873DA9 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
-		3BC25C688B6940FA9BDD63C6 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_stdlib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_stdlib.cpp; path = 3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_stdlib.cpp; sourceTree = SOURCE_ROOT; };
-		3F5A6101EEE745FF839FD12D /* /Users/jonino/src/body_shape/smplxpp/src/body.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = body.cpp; path = src/body.cpp; sourceTree = SOURCE_ROOT; };
-		40A8E75388514BBDBECECF76 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = 3rdparty/meshview/3rdparty/glfw/src/input.c; sourceTree = SOURCE_ROOT; };
-		4216BDA2ED6342A6B2C2C8AC /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = 3rdparty/meshview/3rdparty/glfw/src/egl_context.h; sourceTree = SOURCE_ROOT; };
-		4236BD3B9798488A93606A43 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = 3rdparty/meshview/3rdparty/glfw/src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
-		42F0B1D22A14493DB425D8DC /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = 3rdparty/meshview/3rdparty/glfw/src/posix_thread.c; sourceTree = SOURCE_ROOT; };
-		449F01B6FC4045D2A290944E /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = 3rdparty/meshview/3rdparty/glfw/src/monitor.c; sourceTree = SOURCE_ROOT; };
-		462CBFA7571A4CF5834F897A /* /Users/jonino/src/body_shape/smplxpp/main_amass.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main_amass.cpp; path = main_amass.cpp; sourceTree = SOURCE_ROOT; };
-		4FDA3C074B2A4BA5ADD421DF /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = 3rdparty/meshview/3rdparty/glfw/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		565BBB8E6E9B4DCD91B0C05A /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui.cpp; path = 3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui.cpp; sourceTree = SOURCE_ROOT; };
-		5A72AC23A3D14F819449331D /* meshview */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libmeshview.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		60BE27D1E1F648CE8E4219FE /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = 3rdparty/meshview/3rdparty/glfw/src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
-		610EC3F0B697400F9CA39937 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_widgets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_widgets.cpp; path = 3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_widgets.cpp; sourceTree = SOURCE_ROOT; };
-		6144088AB1E44ECDAAC53E3F /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		6FF8B55E0DD34837901FA434 /* /Users/jonino/src/body_shape/smplxpp/main_viewer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main_viewer.cpp; path = main_viewer.cpp; sourceTree = SOURCE_ROOT; };
-		78DB51FC04044F84807DAA02 /* /Users/jonino/src/body_shape/smplxpp/src/model.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = model.cpp; path = src/model.cpp; sourceTree = SOURCE_ROOT; };
-		8B7A0CBD31FC448288F51F5F /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = 3rdparty/meshview/3rdparty/glfw/include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
-		8D42345389D147938DC6AC04 /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		8D427B8C9A8E45CFA2B99A75 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = 3rdparty/meshview/3rdparty/glew/src/glew.c; sourceTree = SOURCE_ROOT; };
-		9576CFDEABD14F1195B20A8E /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_impl_glfw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_impl_glfw.cpp; path = 3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_impl_glfw.cpp; sourceTree = SOURCE_ROOT; };
-		962EF5CCE7114C709B8ACF9D /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = 3rdparty/meshview/3rdparty/glfw/src/window.c; sourceTree = SOURCE_ROOT; };
-		9687E7D16EF74EE2874FAED3 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = 3rdparty/meshview/3rdparty/glfw/src/vulkan.c; sourceTree = SOURCE_ROOT; };
-		97A1C03900CB4F92B9BCFACE /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		98F9610B88A44BBFB812DF23 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = 3rdparty/meshview/3rdparty/glfw/include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
-		9B25492A81734F91BFD67CE0 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shader.cpp; path = 3rdparty/meshview/src/shader.cpp; sourceTree = SOURCE_ROOT; };
-		9FBA75494DEB4C7280B44AE0 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4D8237D51364A4EAE0C36D3 /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		A5FE664D43794BBC8CA147F3 /* /Users/jonino/src/body_shape/smplxpp/main_example.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main_example.cpp; path = main_example.cpp; sourceTree = SOURCE_ROOT; };
-		A672AE0C8783481B898DC64B /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = 3rdparty/meshview/3rdparty/glfw/src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
-		A7818AC91C9D4F9397AF4F25 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = 3rdparty/meshview/3rdparty/glfw/src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
-		ACF431838998434799507C50 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera.cpp; path = 3rdparty/meshview/src/camera.cpp; sourceTree = SOURCE_ROOT; };
-		AD436C663D2B4F30AD4B6707 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = 3rdparty/meshview/3rdparty/glfw/src/egl_context.c; sourceTree = SOURCE_ROOT; };
-		B374BC84D2264904878EE8DE /* amass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "smplx-amass"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEAE6F9C5C98446A90D49B7E /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/texture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = texture.cpp; path = 3rdparty/meshview/src/texture.cpp; sourceTree = SOURCE_ROOT; };
-		C400CE789E8D4073A9145F83 /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		D1740AE10C554CFD85A08730 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = 3rdparty/meshview/3rdparty/glfw/src/init.c; sourceTree = SOURCE_ROOT; };
-		DB3D84DB250442E9810BC3B7 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = 3rdparty/meshview/3rdparty/glfw/src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
-		E33BA0A41D5F4A98A0CF70BF /* /Users/jonino/src/body_shape/smplxpp/src/sequence.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sequence.cpp; path = src/sequence.cpp; sourceTree = SOURCE_ROOT; };
-		E4F19C3BBC9146E1B1266C9D /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = 3rdparty/meshview/3rdparty/glfw/src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
-		E875CFE8BBEE4AE79C7509B2 /* /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = build_xcode/3rdparty/meshview/3rdparty/glfw/src/glfw_config.h; sourceTree = SOURCE_ROOT; };
-		E96A25FB4FB64CB4BC6A9767 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util.cpp; path = 3rdparty/meshview/src/util.cpp; sourceTree = SOURCE_ROOT; };
-		F0820C01D0FD408AA6366233 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_draw.cpp; path = 3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_draw.cpp; sourceTree = SOURCE_ROOT; };
-		F14315BD7AB048AFB5F1EFE3 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = 3rdparty/meshview/3rdparty/glfw/src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		F1DE6367603A42B39D07F760 /* smplxpp */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsmplx.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F367B322E0404481BD6A4A77 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = 3rdparty/meshview/3rdparty/glfw/src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
-		F9ADD4F0B91B443EAF4CF9BE /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb/stb_image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stb_image.cpp; path = 3rdparty/meshview/3rdparty/stb/stb_image.cpp; sourceTree = SOURCE_ROOT; };
-		F9F4B6A2D0124F00AF9DDB51 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = 3rdparty/meshview/3rdparty/glfw/src/mappings.h; sourceTree = SOURCE_ROOT; };
-		FB34F301A0DE41E8AC651451 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/viewer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = viewer.cpp; path = 3rdparty/meshview/src/viewer.cpp; sourceTree = SOURCE_ROOT; };
+		016BAE45A8B5420BB4D2D9C8 /* cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = 3rdparty/meshview/3rdparty/glfw/src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		01E21DDD82994F6FB324F58C /* context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = 3rdparty/meshview/3rdparty/glfw/src/context.c; sourceTree = SOURCE_ROOT; };
+		05C4FE0530D54C659BB761D5 /* cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = 3rdparty/meshview/3rdparty/glfw/src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		075098ECBC784297A63B2B17 /* smplx-example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "smplx-example"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D69778A9AF4753B1E34C5D /* imgui_impl_opengl3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_impl_opengl3.cpp; path = 3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_impl_opengl3.cpp; sourceTree = SOURCE_ROOT; };
+		099C578CEEEF40E4A899B29A /* util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util.cpp; path = src/util.cpp; sourceTree = SOURCE_ROOT; };
+		0B9B524858B1451E834BF341 /* internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = 3rdparty/meshview/3rdparty/glfw/src/internal.h; sourceTree = SOURCE_ROOT; };
+		1D713E1FCF3B451BB1DAC986 /* smplx-viewer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "smplx-viewer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6BF1D64BE146E6A80C0145 /* mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mesh.cpp; path = 3rdparty/meshview/src/mesh.cpp; sourceTree = SOURCE_ROOT; };
+		21735F25617C4D4696F03685 /* cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = 3rdparty/meshview/3rdparty/glfw/src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		2419D3E859E040D483D5C0DB /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = 3rdparty/meshview/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		24FB9A9D99474FC1A9AFDBD9 /* cnpy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cnpy.cpp; path = 3rdparty/cnpy/cnpy.cpp; sourceTree = SOURCE_ROOT; };
+		2DE1CB7D34BA4EF9B4D13C33 /* posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = 3rdparty/meshview/3rdparty/glfw/src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		2F307CA26B4B4F8AB0669712 /* osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = 3rdparty/meshview/3rdparty/glfw/src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+		322E4F20D72942AC9C873DA9 /* OpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		3BC25C688B6940FA9BDD63C6 /* imgui_stdlib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_stdlib.cpp; path = 3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_stdlib.cpp; sourceTree = SOURCE_ROOT; };
+		3F5A6101EEE745FF839FD12D /* body.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = body.cpp; path = src/body.cpp; sourceTree = SOURCE_ROOT; };
+		40A8E75388514BBDBECECF76 /* input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = 3rdparty/meshview/3rdparty/glfw/src/input.c; sourceTree = SOURCE_ROOT; };
+		4216BDA2ED6342A6B2C2C8AC /* egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = 3rdparty/meshview/3rdparty/glfw/src/egl_context.h; sourceTree = SOURCE_ROOT; };
+		4236BD3B9798488A93606A43 /* cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = 3rdparty/meshview/3rdparty/glfw/src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		42F0B1D22A14493DB425D8DC /* posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = 3rdparty/meshview/3rdparty/glfw/src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+		449F01B6FC4045D2A290944E /* monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = 3rdparty/meshview/3rdparty/glfw/src/monitor.c; sourceTree = SOURCE_ROOT; };
+		462CBFA7571A4CF5834F897A /* main_amass.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main_amass.cpp; sourceTree = SOURCE_ROOT; };
+		4FDA3C074B2A4BA5ADD421DF /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = 3rdparty/meshview/3rdparty/glfw/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		565BBB8E6E9B4DCD91B0C05A /* imgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui.cpp; path = 3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui.cpp; sourceTree = SOURCE_ROOT; };
+		5A72AC23A3D14F819449331D /* libmeshview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libmeshview.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BE27D1E1F648CE8E4219FE /* nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = 3rdparty/meshview/3rdparty/glfw/src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		610EC3F0B697400F9CA39937 /* imgui_widgets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_widgets.cpp; path = 3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_widgets.cpp; sourceTree = SOURCE_ROOT; };
+		6144088AB1E44ECDAAC53E3F /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6FF8B55E0DD34837901FA434 /* main_viewer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main_viewer.cpp; sourceTree = SOURCE_ROOT; };
+		78DB51FC04044F84807DAA02 /* model.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = model.cpp; path = src/model.cpp; sourceTree = SOURCE_ROOT; };
+		8B7A0CBD31FC448288F51F5F /* glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = 3rdparty/meshview/3rdparty/glfw/include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		8D42345389D147938DC6AC04 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8D427B8C9A8E45CFA2B99A75 /* glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = 3rdparty/meshview/3rdparty/glew/src/glew.c; sourceTree = SOURCE_ROOT; };
+		9576CFDEABD14F1195B20A8E /* imgui_impl_glfw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_impl_glfw.cpp; path = 3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_impl_glfw.cpp; sourceTree = SOURCE_ROOT; };
+		962EF5CCE7114C709B8ACF9D /* window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = 3rdparty/meshview/3rdparty/glfw/src/window.c; sourceTree = SOURCE_ROOT; };
+		9687E7D16EF74EE2874FAED3 /* vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = 3rdparty/meshview/3rdparty/glfw/src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		97A1C03900CB4F92B9BCFACE /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		98F9610B88A44BBFB812DF23 /* glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = 3rdparty/meshview/3rdparty/glfw/include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		9B25492A81734F91BFD67CE0 /* shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shader.cpp; path = 3rdparty/meshview/src/shader.cpp; sourceTree = SOURCE_ROOT; };
+		9FBA75494DEB4C7280B44AE0 /* libglfw3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D8237D51364A4EAE0C36D3 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A5FE664D43794BBC8CA147F3 /* main_example.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main_example.cpp; sourceTree = SOURCE_ROOT; };
+		A672AE0C8783481B898DC64B /* cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = 3rdparty/meshview/3rdparty/glfw/src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		A7818AC91C9D4F9397AF4F25 /* osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = 3rdparty/meshview/3rdparty/glfw/src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
+		ACF431838998434799507C50 /* camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera.cpp; path = 3rdparty/meshview/src/camera.cpp; sourceTree = SOURCE_ROOT; };
+		AD436C663D2B4F30AD4B6707 /* egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = 3rdparty/meshview/3rdparty/glfw/src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		B374BC84D2264904878EE8DE /* smplx-amass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "smplx-amass"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAE6F9C5C98446A90D49B7E /* texture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = texture.cpp; path = 3rdparty/meshview/src/texture.cpp; sourceTree = SOURCE_ROOT; };
+		C400CE789E8D4073A9145F83 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D1740AE10C554CFD85A08730 /* init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = 3rdparty/meshview/3rdparty/glfw/src/init.c; sourceTree = SOURCE_ROOT; };
+		DB3D84DB250442E9810BC3B7 /* cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = 3rdparty/meshview/3rdparty/glfw/src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		E33BA0A41D5F4A98A0CF70BF /* sequence.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sequence.cpp; path = src/sequence.cpp; sourceTree = SOURCE_ROOT; };
+		E4F19C3BBC9146E1B1266C9D /* cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = 3rdparty/meshview/3rdparty/glfw/src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		E875CFE8BBEE4AE79C7509B2 /* glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = build_xcode/3rdparty/meshview/3rdparty/glfw/src/glfw_config.h; sourceTree = SOURCE_ROOT; };
+		E96A25FB4FB64CB4BC6A9767 /* util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util.cpp; path = 3rdparty/meshview/src/util.cpp; sourceTree = SOURCE_ROOT; };
+		F0820C01D0FD408AA6366233 /* imgui_draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_draw.cpp; path = 3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_draw.cpp; sourceTree = SOURCE_ROOT; };
+		F14315BD7AB048AFB5F1EFE3 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = 3rdparty/meshview/3rdparty/glfw/src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F1DE6367603A42B39D07F760 /* libsmplx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsmplx.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F367B322E0404481BD6A4A77 /* nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = 3rdparty/meshview/3rdparty/glfw/src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		F9ADD4F0B91B443EAF4CF9BE /* stb_image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stb_image.cpp; path = 3rdparty/meshview/3rdparty/stb/stb_image.cpp; sourceTree = SOURCE_ROOT; };
+		F9F4B6A2D0124F00AF9DDB51 /* mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = 3rdparty/meshview/3rdparty/glfw/src/mappings.h; sourceTree = SOURCE_ROOT; };
+		FB34F301A0DE41E8AC651451 /* viewer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = viewer.cpp; path = 3rdparty/meshview/src/viewer.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -417,7 +368,7 @@
 			children = (
 				C16AF2CC3F874CE79A96E259 /* Header Files */,
 				7155ED711713431498455325 /* Source Files */,
-				F14315BD7AB048AFB5F1EFE3 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/CMakeLists.txt */,
+				F14315BD7AB048AFB5F1EFE3 /* CMakeLists.txt */,
 			);
 			name = glfw;
 			sourceTree = "<group>";
@@ -425,7 +376,7 @@
 		157ADEB1AEDE47FD93DE8B8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				322E4F20D72942AC9C873DA9 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/OpenGL.framework */,
+				322E4F20D72942AC9C873DA9 /* OpenGL.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -435,7 +386,7 @@
 			children = (
 				D187C0D15431477685AD92CB /* Source Files */,
 				661C414D02E84B6D94B5DC8C /* Vendor Source Files */,
-				C400CE789E8D4073A9145F83 /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */,
+				C400CE789E8D4073A9145F83 /* CMakeLists.txt */,
 			);
 			name = smplxpp;
 			sourceTree = "<group>";
@@ -444,7 +395,7 @@
 			isa = PBXGroup;
 			children = (
 				65C7EB912C3749A19C45BADB /* Source Files */,
-				2419D3E859E040D483D5C0DB /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/CMakeLists.txt */,
+				2419D3E859E040D483D5C0DB /* CMakeLists.txt */,
 			);
 			name = meshview;
 			sourceTree = "<group>";
@@ -453,7 +404,7 @@
 			isa = PBXGroup;
 			children = (
 				9F9C4E1F2942435DBBE45C77 /* Source Files */,
-				A4D8237D51364A4EAE0C36D3 /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */,
+				A4D8237D51364A4EAE0C36D3 /* CMakeLists.txt */,
 			);
 			name = amass;
 			sourceTree = "<group>";
@@ -462,7 +413,7 @@
 			isa = PBXGroup;
 			children = (
 				B83AABF60F2E4B69886D7DE6 /* Source Files */,
-				6144088AB1E44ECDAAC53E3F /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */,
+				6144088AB1E44ECDAAC53E3F /* CMakeLists.txt */,
 			);
 			name = example;
 			sourceTree = "<group>";
@@ -477,20 +428,20 @@
 		65C7EB912C3749A19C45BADB /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				8D427B8C9A8E45CFA2B99A75 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/src/glew.c */,
-				565BBB8E6E9B4DCD91B0C05A /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui.cpp */,
-				F0820C01D0FD408AA6366233 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_draw.cpp */,
-				9576CFDEABD14F1195B20A8E /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_impl_glfw.cpp */,
-				07D69778A9AF4753B1E34C5D /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_impl_opengl3.cpp */,
-				3BC25C688B6940FA9BDD63C6 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_stdlib.cpp */,
-				610EC3F0B697400F9CA39937 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_widgets.cpp */,
-				F9ADD4F0B91B443EAF4CF9BE /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb/stb_image.cpp */,
-				ACF431838998434799507C50 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/camera.cpp */,
-				1E6BF1D64BE146E6A80C0145 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/mesh.cpp */,
-				9B25492A81734F91BFD67CE0 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/shader.cpp */,
-				BEAE6F9C5C98446A90D49B7E /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/texture.cpp */,
-				E96A25FB4FB64CB4BC6A9767 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/util.cpp */,
-				FB34F301A0DE41E8AC651451 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/viewer.cpp */,
+				8D427B8C9A8E45CFA2B99A75 /* glew.c */,
+				565BBB8E6E9B4DCD91B0C05A /* imgui.cpp */,
+				F0820C01D0FD408AA6366233 /* imgui_draw.cpp */,
+				9576CFDEABD14F1195B20A8E /* imgui_impl_glfw.cpp */,
+				07D69778A9AF4753B1E34C5D /* imgui_impl_opengl3.cpp */,
+				3BC25C688B6940FA9BDD63C6 /* imgui_stdlib.cpp */,
+				610EC3F0B697400F9CA39937 /* imgui_widgets.cpp */,
+				F9ADD4F0B91B443EAF4CF9BE /* stb_image.cpp */,
+				ACF431838998434799507C50 /* camera.cpp */,
+				1E6BF1D64BE146E6A80C0145 /* mesh.cpp */,
+				9B25492A81734F91BFD67CE0 /* shader.cpp */,
+				BEAE6F9C5C98446A90D49B7E /* texture.cpp */,
+				E96A25FB4FB64CB4BC6A9767 /* util.cpp */,
+				FB34F301A0DE41E8AC651451 /* viewer.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -498,7 +449,7 @@
 		661C414D02E84B6D94B5DC8C /* Vendor Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				24FB9A9D99474FC1A9AFDBD9 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy/cnpy.cpp */,
+				24FB9A9D99474FC1A9AFDBD9 /* cnpy.cpp */,
 			);
 			name = "Vendor Source Files";
 			sourceTree = "<group>";
@@ -506,21 +457,21 @@
 		7155ED711713431498455325 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				016BAE45A8B5420BB4D2D9C8 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_init.m */,
-				E4F19C3BBC9146E1B1266C9D /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_joystick.m */,
-				DB3D84DB250442E9810BC3B7 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_monitor.m */,
-				21735F25617C4D4696F03685 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_time.c */,
-				A672AE0C8783481B898DC64B /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_window.m */,
-				01E21DDD82994F6FB324F58C /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/context.c */,
-				AD436C663D2B4F30AD4B6707 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/egl_context.c */,
-				D1740AE10C554CFD85A08730 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/init.c */,
-				40A8E75388514BBDBECECF76 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/input.c */,
-				449F01B6FC4045D2A290944E /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/monitor.c */,
-				60BE27D1E1F648CE8E4219FE /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/nsgl_context.m */,
-				2F307CA26B4B4F8AB0669712 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/osmesa_context.c */,
-				42F0B1D22A14493DB425D8DC /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/posix_thread.c */,
-				9687E7D16EF74EE2874FAED3 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/vulkan.c */,
-				962EF5CCE7114C709B8ACF9D /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/window.c */,
+				016BAE45A8B5420BB4D2D9C8 /* cocoa_init.m */,
+				E4F19C3BBC9146E1B1266C9D /* cocoa_joystick.m */,
+				DB3D84DB250442E9810BC3B7 /* cocoa_monitor.m */,
+				21735F25617C4D4696F03685 /* cocoa_time.c */,
+				A672AE0C8783481B898DC64B /* cocoa_window.m */,
+				01E21DDD82994F6FB324F58C /* context.c */,
+				AD436C663D2B4F30AD4B6707 /* egl_context.c */,
+				D1740AE10C554CFD85A08730 /* init.c */,
+				40A8E75388514BBDBECECF76 /* input.c */,
+				449F01B6FC4045D2A290944E /* monitor.c */,
+				60BE27D1E1F648CE8E4219FE /* nsgl_context.m */,
+				2F307CA26B4B4F8AB0669712 /* osmesa_context.c */,
+				42F0B1D22A14493DB425D8DC /* posix_thread.c */,
+				9687E7D16EF74EE2874FAED3 /* vulkan.c */,
+				962EF5CCE7114C709B8ACF9D /* window.c */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -544,12 +495,12 @@
 		8CE95EC237094B94960075E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B374BC84D2264904878EE8DE /* amass */,
-				075098ECBC784297A63B2B17 /* example */,
-				9FBA75494DEB4C7280B44AE0 /* glfw */,
-				5A72AC23A3D14F819449331D /* meshview */,
-				F1DE6367603A42B39D07F760 /* smplxpp */,
-				1D713E1FCF3B451BB1DAC986 /* viewer */,
+				B374BC84D2264904878EE8DE /* smplx-amass */,
+				075098ECBC784297A63B2B17 /* smplx-example */,
+				9FBA75494DEB4C7280B44AE0 /* libglfw3.a */,
+				5A72AC23A3D14F819449331D /* libmeshview.a */,
+				F1DE6367603A42B39D07F760 /* libsmplx.a */,
+				1D713E1FCF3B451BB1DAC986 /* smplx-viewer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -558,7 +509,7 @@
 			isa = PBXGroup;
 			children = (
 				984089E7F8F04225B9E21D35 /* Source Files */,
-				97A1C03900CB4F92B9BCFACE /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */,
+				97A1C03900CB4F92B9BCFACE /* CMakeLists.txt */,
 			);
 			name = viewer;
 			sourceTree = "<group>";
@@ -566,7 +517,7 @@
 		984089E7F8F04225B9E21D35 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				6FF8B55E0DD34837901FA434 /* /Users/jonino/src/body_shape/smplxpp/main_viewer.cpp */,
+				6FF8B55E0DD34837901FA434 /* main_viewer.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -574,7 +525,7 @@
 		9F9C4E1F2942435DBBE45C77 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				462CBFA7571A4CF5834F897A /* /Users/jonino/src/body_shape/smplxpp/main_amass.cpp */,
+				462CBFA7571A4CF5834F897A /* main_amass.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -589,7 +540,7 @@
 		B83AABF60F2E4B69886D7DE6 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				A5FE664D43794BBC8CA147F3 /* /Users/jonino/src/body_shape/smplxpp/main_example.cpp */,
+				A5FE664D43794BBC8CA147F3 /* main_example.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -598,7 +549,7 @@
 			isa = PBXGroup;
 			children = (
 				544596755DF0461888DAF53B /* CMake Rules */,
-				8D42345389D147938DC6AC04 /* /Users/jonino/src/body_shape/smplxpp/CMakeLists.txt */,
+				8D42345389D147938DC6AC04 /* CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
@@ -622,17 +573,17 @@
 		C16AF2CC3F874CE79A96E259 /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				8B7A0CBD31FC448288F51F5F /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include/GLFW/glfw3.h */,
-				98F9610B88A44BBFB812DF23 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include/GLFW/glfw3native.h */,
-				4236BD3B9798488A93606A43 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_joystick.h */,
-				05C4FE0530D54C659BB761D5 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_platform.h */,
-				4216BDA2ED6342A6B2C2C8AC /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/egl_context.h */,
-				0B9B524858B1451E834BF341 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/internal.h */,
-				F9F4B6A2D0124F00AF9DDB51 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/mappings.h */,
-				F367B322E0404481BD6A4A77 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/nsgl_context.h */,
-				A7818AC91C9D4F9397AF4F25 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/osmesa_context.h */,
-				2DE1CB7D34BA4EF9B4D13C33 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/posix_thread.h */,
-				E875CFE8BBEE4AE79C7509B2 /* /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/glfw_config.h */,
+				8B7A0CBD31FC448288F51F5F /* glfw3.h */,
+				98F9610B88A44BBFB812DF23 /* glfw3native.h */,
+				4236BD3B9798488A93606A43 /* cocoa_joystick.h */,
+				05C4FE0530D54C659BB761D5 /* cocoa_platform.h */,
+				4216BDA2ED6342A6B2C2C8AC /* egl_context.h */,
+				0B9B524858B1451E834BF341 /* internal.h */,
+				F9F4B6A2D0124F00AF9DDB51 /* mappings.h */,
+				F367B322E0404481BD6A4A77 /* nsgl_context.h */,
+				A7818AC91C9D4F9397AF4F25 /* osmesa_context.h */,
+				2DE1CB7D34BA4EF9B4D13C33 /* posix_thread.h */,
+				E875CFE8BBEE4AE79C7509B2 /* glfw_config.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -641,7 +592,7 @@
 			isa = PBXGroup;
 			children = (
 				A8A18A5B49914652A7E291DD /* CMake Rules */,
-				4FDA3C074B2A4BA5ADD421DF /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/CMakeLists.txt */,
+				4FDA3C074B2A4BA5ADD421DF /* CMakeLists.txt */,
 			);
 			name = uninstall;
 			sourceTree = "<group>";
@@ -649,10 +600,10 @@
 		D187C0D15431477685AD92CB /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				3F5A6101EEE745FF839FD12D /* /Users/jonino/src/body_shape/smplxpp/src/body.cpp */,
-				78DB51FC04044F84807DAA02 /* /Users/jonino/src/body_shape/smplxpp/src/model.cpp */,
-				E33BA0A41D5F4A98A0CF70BF /* /Users/jonino/src/body_shape/smplxpp/src/sequence.cpp */,
-				099C578CEEEF40E4A899B29A /* /Users/jonino/src/body_shape/smplxpp/src/util.cpp */,
+				3F5A6101EEE745FF839FD12D /* body.cpp */,
+				78DB51FC04044F84807DAA02 /* model.cpp */,
+				E33BA0A41D5F4A98A0CF70BF /* sequence.cpp */,
+				099C578CEEEF40E4A899B29A /* util.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -675,7 +626,7 @@
 			);
 			name = example;
 			productName = example;
-			productReference = 075098ECBC784297A63B2B17 /* example */;
+			productReference = 075098ECBC784297A63B2B17 /* smplx-example */;
 			productType = "com.apple.product-type.tool";
 		};
 		2E2E102EE436419B8FED49CF /* glfw */ = {
@@ -692,7 +643,7 @@
 			);
 			name = glfw;
 			productName = glfw;
-			productReference = 9FBA75494DEB4C7280B44AE0 /* glfw */;
+			productReference = 9FBA75494DEB4C7280B44AE0 /* libglfw3.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		3CA23E7F61A74BBE8323ABEF /* viewer */ = {
@@ -712,7 +663,7 @@
 			);
 			name = viewer;
 			productName = viewer;
-			productReference = 1D713E1FCF3B451BB1DAC986 /* viewer */;
+			productReference = 1D713E1FCF3B451BB1DAC986 /* smplx-viewer */;
 			productType = "com.apple.product-type.tool";
 		};
 		885FF44BDDFE467F821835B7 /* smplxpp */ = {
@@ -729,7 +680,7 @@
 			);
 			name = smplxpp;
 			productName = smplxpp;
-			productReference = F1DE6367603A42B39D07F760 /* smplxpp */;
+			productReference = F1DE6367603A42B39D07F760 /* libsmplx.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		AF849F13E75F419693BCFAAE /* amass */ = {
@@ -749,7 +700,7 @@
 			);
 			name = amass;
 			productName = amass;
-			productReference = B374BC84D2264904878EE8DE /* amass */;
+			productReference = B374BC84D2264904878EE8DE /* smplx-amass */;
 			productType = "com.apple.product-type.tool";
 		};
 		D947DA2186904D6AADBAACDD /* meshview */ = {
@@ -766,7 +717,7 @@
 			);
 			name = meshview;
 			productName = meshview;
-			productReference = 5A72AC23A3D14F819449331D /* meshview */;
+			productReference = 5A72AC23A3D14F819449331D /* libmeshview.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -775,20 +726,16 @@
 		FEE062B538EE4C8A84F25980 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1540;
 			};
 			buildConfigurationList = 024682CE11C745638DB06BA9 /* Build configuration list for PBXProject "smplxpp" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				FBEA6A9B8BC842078DBCEB16 /* Debug */,
-				B874BC1942DB4662934F5970 /* Release */,
-				5601D19FD99743D59135B64C /* MinSizeRel */,
-				B3941B9AC54143E1BDED101F /* RelWithDebInfo */,
-			);
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = 83EF0A95DA43465C8583E9F1;
 			projectDirPath = /Users/jonino/src/body_shape/smplxpp;
 			projectRoot = "";
@@ -808,36 +755,6 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3C0110FC8322DE7E50886E21 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		3C8B9B9628600475EB03CBF8 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 		3D4C2EEE7E953277DECE0413 /* Generate 3rdparty/meshview/3rdparty/glfw/CMakeFiles/uninstall */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -848,27 +765,11 @@ exit 0";
 			);
 			name = "Generate 3rdparty/meshview/3rdparty/glfw/CMakeFiles/uninstall";
 			outputPaths = (
-/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/CMakeFiles/uninstall			);
+				/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/CMakeFiles/uninstall,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw
-  /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -P /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/cmake_uninstall.cmake
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw
-  /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -P /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/cmake_uninstall.cmake
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw
-  /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -P /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/cmake_uninstall.cmake
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw
-  /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -P /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/cmake_uninstall.cmake
-fi
-";
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw\n  /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -P /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/cmake_uninstall.cmake\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw\n  /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -P /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/cmake_uninstall.cmake\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw\n  /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -P /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/cmake_uninstall.cmake\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw\n  /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -P /Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/cmake_uninstall.cmake\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		3DBC957E41DD93D6A97CF66A /* Generate CMakeFiles/ZERO_CHECK */ = {
@@ -881,27 +782,11 @@ fi
 			);
 			name = "Generate CMakeFiles/ZERO_CHECK";
 			outputPaths = (
-/Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeFiles/ZERO_CHECK			);
+				/Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeFiles/ZERO_CHECK,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/jonino/src/body_shape/smplxpp/build_xcode
-  make -f /Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/jonino/src/body_shape/smplxpp/build_xcode
-  make -f /Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/jonino/src/body_shape/smplxpp/build_xcode
-  make -f /Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/jonino/src/body_shape/smplxpp/build_xcode
-  make -f /Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeScripts/ReRunCMake.make
-fi
-";
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/jonino/src/body_shape/smplxpp/build_xcode\n  make -f /Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/jonino/src/body_shape/smplxpp/build_xcode\n  make -f /Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/jonino/src/body_shape/smplxpp/build_xcode\n  make -f /Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/jonino/src/body_shape/smplxpp/build_xcode\n  make -f /Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeScripts/ReRunCMake.make\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		63E2671BD18D2496106E23A3 /* Generate CMakeFiles/ALL_BUILD */ = {
@@ -914,42 +799,11 @@ fi
 			);
 			name = "Generate CMakeFiles/ALL_BUILD";
 			outputPaths = (
-/Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeFiles/ALL_BUILD			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/jonino/src/body_shape/smplxpp/build_xcode
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/jonino/src/body_shape/smplxpp/build_xcode
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/jonino/src/body_shape/smplxpp/build_xcode
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/jonino/src/body_shape/smplxpp/build_xcode
-  echo Build\\ all\\ projects
-fi
-";
-			showEnvVarsInLog = 0;
-		};
-		87AF4882E018677E2624B544 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
+				/Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeFiles/ALL_BUILD,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/jonino/src/body_shape/smplxpp/build_xcode\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/jonino/src/body_shape/smplxpp/build_xcode\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/jonino/src/body_shape/smplxpp/build_xcode\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/jonino/src/body_shape/smplxpp/build_xcode\n  echo Build\\ all\\ projects\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
@@ -963,39 +817,7 @@ exit 0";
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/jonino/src/body_shape/smplxpp/build_xcode
-  /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/jonino/src/body_shape/smplxpp/build_xcode
-  /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/jonino/src/body_shape/smplxpp/build_xcode
-  /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/jonino/src/body_shape/smplxpp/build_xcode
-  /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
-fi
-";
-			showEnvVarsInLog = 0;
-		};
-		9B50530E35CC49C82C2FACCF = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/jonino/src/body_shape/smplxpp/build_xcode\n  /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/jonino/src/body_shape/smplxpp/build_xcode\n  /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/jonino/src/body_shape/smplxpp/build_xcode\n  /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/jonino/src/body_shape/smplxpp/build_xcode\n  /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1005,11 +827,11 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6E861728C454BEC947B107D /* /Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy/cnpy.cpp */,
-				0C771EECBF32417ABF8383C1 /* /Users/jonino/src/body_shape/smplxpp/src/body.cpp */,
-				A0F41466DEE94B5B93F471C6 /* /Users/jonino/src/body_shape/smplxpp/src/model.cpp */,
-				169997521ECA4824B57C4E39 /* /Users/jonino/src/body_shape/smplxpp/src/sequence.cpp */,
-				DBDF5866757641D1834A8624 /* /Users/jonino/src/body_shape/smplxpp/src/util.cpp */,
+				C6E861728C454BEC947B107D /* cnpy.cpp in Sources */,
+				0C771EECBF32417ABF8383C1 /* body.cpp in Sources */,
+				A0F41466DEE94B5B93F471C6 /* model.cpp in Sources */,
+				169997521ECA4824B57C4E39 /* sequence.cpp in Sources */,
+				DBDF5866757641D1834A8624 /* util.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1017,20 +839,20 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1BBCC21409D4AFDA19EE66C /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/src/glew.c */,
-				24E0E2E434CA410DAE90F597 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui.cpp */,
-				4969300259F74801B9353555 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_draw.cpp */,
-				66F65A6810FC405A905516D6 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_impl_glfw.cpp */,
-				489AADA23234464C9CDB72E9 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_impl_opengl3.cpp */,
-				E406332C7A464CE2BA0F585C /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_stdlib.cpp */,
-				D287CB007436401A9195D621 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod/meshview/imgui/imgui_widgets.cpp */,
-				0CA6738681B44AF19A01AC68 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb/stb_image.cpp */,
-				DB0C24E235B54B3893BAEBCA /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/camera.cpp */,
-				68F6675D58FE489F985FB1AB /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/mesh.cpp */,
-				183CFD24EB734401B8EDCA16 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/shader.cpp */,
-				B6FC117F826F43EEB4C569DE /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/texture.cpp */,
-				ABF5F22535DF4FA4ABC01F8F /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/util.cpp */,
-				3A9FAD81437C4BFB88F47D5C /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/src/viewer.cpp */,
+				D1BBCC21409D4AFDA19EE66C /* glew.c in Sources */,
+				24E0E2E434CA410DAE90F597 /* imgui.cpp in Sources */,
+				4969300259F74801B9353555 /* imgui_draw.cpp in Sources */,
+				66F65A6810FC405A905516D6 /* imgui_impl_glfw.cpp in Sources */,
+				489AADA23234464C9CDB72E9 /* imgui_impl_opengl3.cpp in Sources */,
+				E406332C7A464CE2BA0F585C /* imgui_stdlib.cpp in Sources */,
+				D287CB007436401A9195D621 /* imgui_widgets.cpp in Sources */,
+				0CA6738681B44AF19A01AC68 /* stb_image.cpp in Sources */,
+				DB0C24E235B54B3893BAEBCA /* camera.cpp in Sources */,
+				68F6675D58FE489F985FB1AB /* mesh.cpp in Sources */,
+				183CFD24EB734401B8EDCA16 /* shader.cpp in Sources */,
+				B6FC117F826F43EEB4C569DE /* texture.cpp in Sources */,
+				ABF5F22535DF4FA4ABC01F8F /* util.cpp in Sources */,
+				3A9FAD81437C4BFB88F47D5C /* viewer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1038,21 +860,21 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D12982A251FF49A69E2C91E9 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_init.m */,
-				C9F66C2375FF4A3C96FE8DBF /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_joystick.m */,
-				0A93E42E01B446D38E4BEF67 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_monitor.m */,
-				59785C8136F1439B91FFAFE7 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_time.c */,
-				C3F2947D77D14A23BD22BC36 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/cocoa_window.m */,
-				91B6DF0428D14A1E80EEF1DC /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/context.c */,
-				D23F263AEB6D42F492E91EE3 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/egl_context.c */,
-				BCF700BA8A4146B3A202D2C2 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/init.c */,
-				2932215C8DB04C4C9C299AD3 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/input.c */,
-				57BF9F217D0D484FB269E930 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/monitor.c */,
-				6DE0BF2D7E93405289B464B0 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/nsgl_context.m */,
-				471CE4120DB24B53BCFB3BA8 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/osmesa_context.c */,
-				F76D7FF39A3B439493B69565 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/posix_thread.c */,
-				6C18FEA7AB0042A1A83906A6 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/vulkan.c */,
-				BCDD4F11650C4B67BD79C6E6 /* /Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src/window.c */,
+				D12982A251FF49A69E2C91E9 /* cocoa_init.m in Sources */,
+				C9F66C2375FF4A3C96FE8DBF /* cocoa_joystick.m in Sources */,
+				0A93E42E01B446D38E4BEF67 /* cocoa_monitor.m in Sources */,
+				59785C8136F1439B91FFAFE7 /* cocoa_time.c in Sources */,
+				C3F2947D77D14A23BD22BC36 /* cocoa_window.m in Sources */,
+				91B6DF0428D14A1E80EEF1DC /* context.c in Sources */,
+				D23F263AEB6D42F492E91EE3 /* egl_context.c in Sources */,
+				BCF700BA8A4146B3A202D2C2 /* init.c in Sources */,
+				2932215C8DB04C4C9C299AD3 /* input.c in Sources */,
+				57BF9F217D0D484FB269E930 /* monitor.c in Sources */,
+				6DE0BF2D7E93405289B464B0 /* nsgl_context.m in Sources */,
+				471CE4120DB24B53BCFB3BA8 /* osmesa_context.c in Sources */,
+				F76D7FF39A3B439493B69565 /* posix_thread.c in Sources */,
+				6C18FEA7AB0042A1A83906A6 /* vulkan.c in Sources */,
+				BCDD4F11650C4B67BD79C6E6 /* window.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1060,7 +882,7 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				245C04526EB0455BACF3BA4B /* /Users/jonino/src/body_shape/smplxpp/main_example.cpp */,
+				245C04526EB0455BACF3BA4B /* main_example.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1068,7 +890,7 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				469E4D6FE4774FB481992F48 /* /Users/jonino/src/body_shape/smplxpp/main_amass.cpp */,
+				469E4D6FE4774FB481992F48 /* main_amass.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1076,7 +898,7 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17DDAB5819D41A3AD4E3CAA /* /Users/jonino/src/body_shape/smplxpp/main_viewer.cpp */,
+				C17DDAB5819D41A3AD4E3CAA /* main_viewer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1202,21 +1024,62 @@ exit 0";
 				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,/Users/jonino/src/body_shape/smplxpp/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,
+					/Users/jonino/src/body_shape/smplxpp/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/include,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math    '-std=gnu++17' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/Debug/libmeshview.a,/Users/jonino/src/body_shape/smplxpp/build_xcode/Debug/libsmplx.a,"-framework OpenGL",/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/Debug/libglfw3.a,"-framework Cocoa","-framework IOKit","-framework CoreFoundation",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/Debug/libmeshview.a,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/Debug/libsmplx.a,
+					"-framework",
+					OpenGL,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/Debug/libglfw3.a,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,
+					"$(inherited)",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "smplx-viewer";
 				SECTORDER_FLAGS = "";
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,"$(inherited)");
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/viewer.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -1229,16 +1092,19 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
@@ -1254,20 +1120,43 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,"/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/'/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen'",/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src,/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					"/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/'/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen'",
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"'-std=c99'",
+					"-fPIC",
+					"-Wall",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = MinSizeRel;
 		};
@@ -1280,16 +1169,19 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = RelWithDebInfo;
 		};
@@ -1302,16 +1194,19 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
@@ -1324,16 +1219,19 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -1346,16 +1244,19 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = MinSizeRel;
 		};
@@ -1371,20 +1272,42 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,"/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/'/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen'",/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src,/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					"/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/'/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen'",
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("   '-std=c99' -fPIC -Wall ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_CFLAGS = (
+					"'-std=c99'",
+					"-fPIC",
+					"-Wall",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -1397,16 +1320,19 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -1419,16 +1345,19 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = MinSizeRel;
 		};
@@ -1441,16 +1370,19 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = uninstall;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
@@ -1466,20 +1398,61 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,/Users/jonino/src/body_shape/smplxpp/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,
+					/Users/jonino/src/body_shape/smplxpp/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/include,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math    '-std=gnu++17' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/Debug/libmeshview.a,/Users/jonino/src/body_shape/smplxpp/build_xcode/Debug/libsmplx.a,"-framework OpenGL",/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/Debug/libglfw3.a,"-framework Cocoa","-framework IOKit","-framework CoreFoundation",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/Debug/libmeshview.a,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/Debug/libsmplx.a,
+					"-framework",
+					OpenGL,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/Debug/libglfw3.a,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,
+					"$(inherited)",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "smplx-amass";
 				SECTORDER_FLAGS = "";
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,"$(inherited)");
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/amass.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -1495,20 +1468,62 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,/Users/jonino/src/body_shape/smplxpp/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,
+					/Users/jonino/src/body_shape/smplxpp/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/include,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math        -DNDEBUG '-std=gnu++17' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/RelWithDebInfo/libmeshview.a,/Users/jonino/src/body_shape/smplxpp/build_xcode/RelWithDebInfo/libsmplx.a,"-framework OpenGL",/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/RelWithDebInfo/libglfw3.a,"-framework Cocoa","-framework IOKit","-framework CoreFoundation",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/RelWithDebInfo/libmeshview.a,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/RelWithDebInfo/libsmplx.a,
+					"-framework",
+					OpenGL,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/RelWithDebInfo/libglfw3.a,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,
+					"$(inherited)",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "smplx-viewer";
 				SECTORDER_FLAGS = "";
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,"$(inherited)");
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/viewer.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = RelWithDebInfo;
 		};
@@ -1524,20 +1539,39 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,/Users/jonino/src/body_shape/smplxpp/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					/Users/jonino/src/body_shape/smplxpp/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/include,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math        -DNDEBUG '-std=gnu++17' ";
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = smplx;
 				SECTORDER_FLAGS = "";
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/smplxpp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = RelWithDebInfo;
 		};
@@ -1563,20 +1597,62 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,/Users/jonino/src/body_shape/smplxpp/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,
+					/Users/jonino/src/body_shape/smplxpp/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/include,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math        -DNDEBUG '-std=gnu++17' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/RelWithDebInfo/libmeshview.a,/Users/jonino/src/body_shape/smplxpp/build_xcode/RelWithDebInfo/libsmplx.a,"-framework OpenGL",/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/RelWithDebInfo/libglfw3.a,"-framework Cocoa","-framework IOKit","-framework CoreFoundation",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/RelWithDebInfo/libmeshview.a,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/RelWithDebInfo/libsmplx.a,
+					"-framework",
+					OpenGL,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/RelWithDebInfo/libglfw3.a,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,
+					"$(inherited)",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "smplx-amass";
 				SECTORDER_FLAGS = "";
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,"$(inherited)");
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/amass.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = RelWithDebInfo;
 		};
@@ -1589,16 +1665,19 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
@@ -1614,19 +1693,43 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,/Users/jonino/src/body_shape/smplxpp/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					/Users/jonino/src/body_shape/smplxpp/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/include,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math    '-std=gnu++17' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/jonino/src/body_shape/smplxpp/build_xcode/Debug/libsmplx.a,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/Debug/libsmplx.a,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,
+					"$(inherited)",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "smplx-example";
 				SECTORDER_FLAGS = "";
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/example.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -1642,20 +1745,62 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,/Users/jonino/src/body_shape/smplxpp/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,
+					/Users/jonino/src/body_shape/smplxpp/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/include,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math     -DNDEBUG '-std=gnu++17' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/Release/libmeshview.a,/Users/jonino/src/body_shape/smplxpp/build_xcode/Release/libsmplx.a,"-framework OpenGL",/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/Release/libglfw3.a,"-framework Cocoa","-framework IOKit","-framework CoreFoundation",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/Release/libmeshview.a,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/Release/libsmplx.a,
+					"-framework",
+					OpenGL,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/Release/libglfw3.a,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,
+					"$(inherited)",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "smplx-viewer";
 				SECTORDER_FLAGS = "";
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,"$(inherited)");
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/viewer.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
@@ -1678,16 +1823,19 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = MinSizeRel;
 		};
@@ -1703,22 +1851,51 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,"/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/'/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen'",/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					"/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/'/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen'",
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("   ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops       '-std=gnu++14' ";
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_CFLAGS = "    $(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"'-std=gnu++14'",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = meshview;
 				SECTORDER_FLAGS = "";
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,"$(inherited)");
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/meshview.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -1731,16 +1908,19 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = RelWithDebInfo;
 		};
@@ -1756,22 +1936,56 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,"/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/'/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen'",/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					"/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/'/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen'",
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("    -DNDEBUG  ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops        -DNDEBUG '-std=gnu++14' -g ";
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+					"-g",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = meshview;
 				SECTORDER_FLAGS = "";
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,"$(inherited)");
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/meshview.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = MinSizeRel;
 		};
@@ -1787,20 +2001,43 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,"/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/'/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen'",/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src,/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					"/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/'/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen'",
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"'-std=c99'",
+					"-fPIC",
+					"-Wall",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
@@ -1816,19 +2053,44 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,/Users/jonino/src/body_shape/smplxpp/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					/Users/jonino/src/body_shape/smplxpp/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/include,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math     -DNDEBUG '-std=gnu++17' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/jonino/src/body_shape/smplxpp/build_xcode/MinSizeRel/libsmplx.a,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/MinSizeRel/libsmplx.a,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,
+					"$(inherited)",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "smplx-example";
 				SECTORDER_FLAGS = "";
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/example.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = MinSizeRel;
 		};
@@ -1841,16 +2103,19 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -1863,16 +2128,19 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = uninstall;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = RelWithDebInfo;
 		};
@@ -1888,22 +2156,55 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,"/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/'/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen'",/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					"/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/'/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen'",
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("       -DNDEBUG ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops           -DNDEBUG '-std=gnu++14' ";
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = meshview;
 				SECTORDER_FLAGS = "";
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,"$(inherited)");
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/meshview.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = RelWithDebInfo;
 		};
@@ -1919,20 +2220,39 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,/Users/jonino/src/body_shape/smplxpp/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					/Users/jonino/src/body_shape/smplxpp/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/include,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math     -DNDEBUG '-std=gnu++17' ";
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = smplx;
 				SECTORDER_FLAGS = "";
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/smplxpp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = MinSizeRel;
 		};
@@ -1948,20 +2268,62 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,/Users/jonino/src/body_shape/smplxpp/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,
+					/Users/jonino/src/body_shape/smplxpp/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/include,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math     -DNDEBUG '-std=gnu++17' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/MinSizeRel/libmeshview.a,/Users/jonino/src/body_shape/smplxpp/build_xcode/MinSizeRel/libsmplx.a,"-framework OpenGL",/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/MinSizeRel/libglfw3.a,"-framework Cocoa","-framework IOKit","-framework CoreFoundation",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/MinSizeRel/libmeshview.a,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/MinSizeRel/libsmplx.a,
+					"-framework",
+					OpenGL,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/MinSizeRel/libglfw3.a,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,
+					"$(inherited)",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "smplx-viewer";
 				SECTORDER_FLAGS = "";
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,"$(inherited)");
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/viewer.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = MinSizeRel;
 		};
@@ -1986,22 +2348,56 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,"/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/'/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen'",/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					"/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/'/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen'",
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("    -DNDEBUG  ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops        -DNDEBUG '-std=gnu++14' -g ";
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+					"-g",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = meshview;
 				SECTORDER_FLAGS = "";
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,"$(inherited)");
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/meshview.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
@@ -2014,16 +2410,19 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = uninstall;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -2039,20 +2438,62 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,/Users/jonino/src/body_shape/smplxpp/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,
+					/Users/jonino/src/body_shape/smplxpp/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/include,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math     -DNDEBUG '-std=gnu++17' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/MinSizeRel/libmeshview.a,/Users/jonino/src/body_shape/smplxpp/build_xcode/MinSizeRel/libsmplx.a,"-framework OpenGL",/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/MinSizeRel/libglfw3.a,"-framework Cocoa","-framework IOKit","-framework CoreFoundation",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/MinSizeRel/libmeshview.a,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/MinSizeRel/libsmplx.a,
+					"-framework",
+					OpenGL,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/MinSizeRel/libglfw3.a,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,
+					"$(inherited)",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "smplx-amass";
 				SECTORDER_FLAGS = "";
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,"$(inherited)");
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/amass.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = MinSizeRel;
 		};
@@ -2065,16 +2506,19 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = uninstall;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = MinSizeRel;
 		};
@@ -2100,20 +2544,39 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,/Users/jonino/src/body_shape/smplxpp/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					/Users/jonino/src/body_shape/smplxpp/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/include,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math     -DNDEBUG '-std=gnu++17' ";
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = smplx;
 				SECTORDER_FLAGS = "";
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/smplxpp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
@@ -2129,19 +2592,44 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,/Users/jonino/src/body_shape/smplxpp/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					/Users/jonino/src/body_shape/smplxpp/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/include,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math     -DNDEBUG '-std=gnu++17' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/jonino/src/body_shape/smplxpp/build_xcode/Release/libsmplx.a,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/Release/libsmplx.a,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,
+					"$(inherited)",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "smplx-example";
 				SECTORDER_FLAGS = "";
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/example.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
@@ -2157,20 +2645,38 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,/Users/jonino/src/body_shape/smplxpp/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					/Users/jonino/src/body_shape/smplxpp/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/include,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math    '-std=gnu++17' ";
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"'-std=gnu++17'",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = smplx;
 				SECTORDER_FLAGS = "";
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/smplxpp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -2186,20 +2692,43 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,"/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/'/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen'",/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src,/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					"/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/'/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen'",
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/stb,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glew/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/src,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("       -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"'-std=c99'",
+					"-fPIC",
+					"-Wall",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = RelWithDebInfo;
 		};
@@ -2212,16 +2741,19 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = RelWithDebInfo;
 		};
@@ -2237,20 +2769,62 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,/Users/jonino/src/body_shape/smplxpp/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/include,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/imgui_mod,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/meshview/3rdparty/glfw/include,
+					/Users/jonino/src/body_shape/smplxpp/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/include,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math     -DNDEBUG '-std=gnu++17' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/Release/libmeshview.a,/Users/jonino/src/body_shape/smplxpp/build_xcode/Release/libsmplx.a,"-framework OpenGL",/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/Release/libglfw3.a,"-framework Cocoa","-framework IOKit","-framework CoreFoundation",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/Release/libmeshview.a,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/Release/libsmplx.a,
+					"-framework",
+					OpenGL,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/Release/libglfw3.a,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,
+					"$(inherited)",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "smplx-amass";
 				SECTORDER_FLAGS = "";
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,"$(inherited)");
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/amass.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
@@ -2266,19 +2840,44 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_USE_MATH_DEFINES,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					GLEW_STATIC,
+					_USE_MATH_DEFINES,
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,/Users/jonino/src/body_shape/smplxpp/include,/Users/jonino/src/body_shape/smplxpp/build_xcode/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/misc,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/cnpy,
+					/Users/jonino/src/body_shape/smplxpp/3rdparty/eigen,
+					/Users/jonino/src/body_shape/smplxpp/include,
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/include,
+					"$(inherited)",
+				);
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -Wno-deprecated -Wno-deprecated-declarations     -funroll-loops    -ffast-math        -DNDEBUG '-std=gnu++17' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/jonino/src/body_shape/smplxpp/build_xcode/RelWithDebInfo/libsmplx.a,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wno-deprecated",
+					"-Wno-deprecated-declarations",
+					"-funroll-loops",
+					"-ffast-math",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/jonino/src/body_shape/smplxpp/build_xcode/RelWithDebInfo/libsmplx.a,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd,
+					"$(inherited)",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "smplx-example";
 				SECTORDER_FLAGS = "";
 				TARGET_TEMP_DIR = "/Users/jonino/src/body_shape/smplxpp/build_xcode/build/example.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = RelWithDebInfo;
 		};
