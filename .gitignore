@@ -1,0 +1,10 @@
+data/models/smplx
+data/models/star
+build_xcode/Release
+build_xcode/Debug
+build_xcode/smplxpp.xcodeproj/xcshareddata/xcschemes
+build_xcode/build
+build_xcode/3rdparty/meshview/Release
+build_xcode/3rdparty/meshview/Debug
+build_xcode/3rdparty/meshview/3rdparty/glfw/src/Release
+build_xcode/3rdparty/meshview/3rdparty/glfw/src/Debug

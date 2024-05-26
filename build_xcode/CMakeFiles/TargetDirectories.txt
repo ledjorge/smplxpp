@@ -1,0 +1,17 @@
+/Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeFiles/smplxpp.dir
+/Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeFiles/example.dir
+/Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeFiles/viewer.dir
+/Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeFiles/amass.dir
+/Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeFiles/install.dir
+/Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeFiles/ALL_BUILD.dir
+/Users/jonino/src/body_shape/smplxpp/build_xcode/CMakeFiles/ZERO_CHECK.dir
+/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/CMakeFiles/meshview.dir
+/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/CMakeFiles/install.dir
+/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/CMakeFiles/ALL_BUILD.dir
+/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/CMakeFiles/ZERO_CHECK.dir
+/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/CMakeFiles/uninstall.dir
+/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/CMakeFiles/install.dir
+/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/CMakeFiles/ALL_BUILD.dir
+/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/CMakeFiles/ZERO_CHECK.dir
+/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/CMakeFiles/glfw.dir
+/Users/jonino/src/body_shape/smplxpp/build_xcode/3rdparty/meshview/3rdparty/glfw/src/CMakeFiles/install.dir
