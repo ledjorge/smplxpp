@@ -15,6 +15,19 @@ You should now have
 4. `cd` to the project root directory and run
  (for SMPL 1.0) `python tools/smpl2npz.py smpl/models/basicModel_f_lbs_10_207_0_v1.0.0.pkl smpl/models/basicmodel_m_lbs_10_207_0_v1.0.0.pkl` or
  (for SMPL 1.1) `python tools/smpl2npz.py smpl/models/basicModel_f_lbs_10_207_0_v1.1.0.pkl smpl/models/basicmodel_m_lbs_10_207_0_v1.1.0.pkl smpl/models/basicmodel_neutral_lbs_10_207_0_v1.1.0.pkl`
+ NOTE: It is possible you run into trouble with chumpy. In that case:
+ 5. Modify the chumpy code: Locate the chumpy source code, which is likely in your Anaconda environment directory, and update the imports in the __init__.py file. Change:
+ from numpy import bool, int, float, complex, object, unicode, str, nan, inf
+ To:
+ bool = np.bool_
+ int = np.int_
+ float = np.float_
+ complex = np.complex_
+ object = np.object_
+ unicode = np.unicode_
+ str = np.str_
+ nan = np.nan
+ inf = np.inf
 
 You should have
 - `data/models/smpl/SMPL_MALE.npz`

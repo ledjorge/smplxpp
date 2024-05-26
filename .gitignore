@@ -8,3 +8,4 @@ build_xcode/3rdparty/meshview/Release
 build_xcode/3rdparty/meshview/Debug
 build_xcode/3rdparty/meshview/3rdparty/glfw/src/Release
 build_xcode/3rdparty/meshview/3rdparty/glfw/src/Debug
+data/models/smpl
